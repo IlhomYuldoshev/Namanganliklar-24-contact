@@ -41,7 +41,8 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial" , sans-serif;
+  font-family: "Rubik" ,"Arial" , sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   background-color: #fff;
@@ -88,4 +89,143 @@ img {
 .btn-primary{
   background-color:#7296EC;
   color:#fff;
+}
+.btn-right{
+  margin-left: auto;
+}
+/* LAYOUT-3-2 */
+.layout-3-2{
+  margin-top: 60px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.layout-3{
+  width: 696px;
+  margin-right: 10px;
+}
+
+.layout-2{
+  width: 494px;
+  margin-top: 48px;
+}
+/* FORM */
+.form-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-heading-link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  color:#000;
+}
+
+.form-heading-link:hover{
+  color:#7296EC;
+}
+
+.form-heading-link:active{
+  opacity: 0.6;
+}
+
+.form-block {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-base {
+  width: 100%;
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.input-base:focus{
+  border : 1px solid #7296EC;
+  outline: none;
+}
+
+.input-primary{
+  max-width: 343px;
+}
+
+.input-primary:not(:last-child){
+  margin-right: 10px;
+}
+
+.input-email {
+  width: 100%;
+  padding: 18px 20px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-bottom: 20px;
+  resize: vertical;
+  height: 180px;
+  min-height: 180px;
+}
+
+
+/* N24-INFO-BLOCK */
+.n24-info-block {
+  max-width: 494px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 40px 25px 20px;
+  background-color:#f6f6f6;
+}
+
+.n24-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none ;
+}
+
+.n24-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.n24-item:not(:first-child){
+  margin-top: 20px;
+}
+
+.item-n24-title {
+  margin-top: 0;
+  margin-bottom: 7px;
+}
+
+.item-n24-text {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.item-n24-text-link{
+  text-decoration: none;
+  color:#000;
+}
+
+.item-n24-text-link:hover{
+  color:#7296EC;
+}
+
+.item-n24-text-link:active{
+  opacity:0.6;
 }
